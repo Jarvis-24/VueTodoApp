@@ -1,0 +1,29 @@
+{
+	"name": "vuetodoapp",
+	"version": "1.0.0",
+	"description": "Full Stack MEVN App",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server/index.js",
+		"dev": "nodemon server/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Jarvis-24/VueTodoApp.git"
+	},
+	"author": "GargSpace",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Jarvis-24/VueTodoApp/issues"
+	},
+	"homepage": "https://github.com/Jarvis-24/VueTodoApp#readme",
+	"dependencies": {
+		"body-parser": "^1.20.0",
+		"colors": "^1.4.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"mongodb": "^4.7.0",
+		"mongoose": "^6.4.0"
+	}
+}
