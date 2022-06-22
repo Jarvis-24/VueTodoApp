@@ -1,4 +1,5 @@
 const express = require('express');
+const dotenv = require('dotenv').config();
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
@@ -10,6 +11,8 @@ app.use(cors());
 
 const port = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
+app.use('/api/todos', require('./routes/taskRoutes'));
+
+app.listen(port, () => {
 	console.log(`Server started on port ${port}`);
 });
