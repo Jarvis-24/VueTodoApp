@@ -18,6 +18,7 @@
 	},
 	"homepage": "https://github.com/Jarvis-24/VueTodoApp#readme",
 	"dependencies": {
+		"bcryptjs": "^2.4.3",
 		"body-parser": "*",
 		"colors": "^1.4.0",
 		"cors": "^2.8.5",

@@ -18,6 +18,7 @@ app.use(express.urlencoded({ extended: false }));
 const port = process.env.PORT || 5000;
 
 app.use('/api/todos', require('./routes/taskRoutes'));
+app.use('/api/users', require('./routes/userRoutes'));
 
 app.use(errorHandler);
 
